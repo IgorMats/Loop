@@ -144,7 +144,7 @@
 		43A9438A1B926B7B0051FA24 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A943891B926B7B0051FA24 /* NotificationController.swift */; };
 		43A9438E1B926B7B0051FA24 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9438D1B926B7B0051FA24 /* ComplicationController.swift */; };
 		43A943901B926B7B0051FA24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A9438F1B926B7B0051FA24 /* Assets.xcassets */; };
-		43A943941B926B7B0051FA24 /* WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 43A943721B926B7B0051FA24 /* WatchApp.app */; };
+		43A943941B926B7B0051FA24 /* Loop.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 43A943721B926B7B0051FA24 /* Loop.app */; };
 		43B260491ED248FB008CAA77 /* CarbEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B260481ED248FB008CAA77 /* CarbEntryTableViewCell.swift */; };
 		43B371881CE597D10013C5A6 /* ShareClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B371871CE597D10013C5A6 /* ShareClient.framework */; };
 		43BFF0B51E45C1E700FF19A9 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFF0B31E45C1BE00FF19A9 /* NumberFormatter.swift */; };
@@ -516,7 +516,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				43A943941B926B7B0051FA24 /* WatchApp.app in Embed Watch Content */,
+				43A943941B926B7B0051FA24 /* Loop.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,7 +656,7 @@
 		4372E495213DCDD30068E043 /* GlucoseChartValueHashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseChartValueHashable.swift; sourceTree = "<group>"; };
 		4374B5EE209D84BE00D17AA8 /* OSLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
 		4374B5F3209D89A900D17AA8 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
-		43776F8C1B8022E90074EA36 /* FreeAPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeAPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43776F8C1B8022E90074EA36 /* Loop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43776F8F1B8022E90074EA36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43776F961B8022E90074EA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43776F981B8022E90074EA36 /* DefaultAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DefaultAssets.xcassets; sourceTree = "<group>"; };
@@ -694,7 +694,7 @@
 		43A51E201EB6DBDD000736CC /* ChartsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsTableViewController.swift; sourceTree = "<group>"; };
 		43A567681C94880B00334FAC /* LoopDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LoopDataManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43A8EC6E210E622600A81379 /* CGMBLEKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CGMBLEKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43A943721B926B7B0051FA24 /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A943721B926B7B0051FA24 /* Loop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A943751B926B7B0051FA24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		43A9437E1B926B7B0051FA24 /* WatchApp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchApp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A943841B926B7B0051FA24 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -1264,8 +1264,8 @@
 		43776F8D1B8022E90074EA36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43776F8C1B8022E90074EA36 /* FreeAPS.app */,
-				43A943721B926B7B0051FA24 /* WatchApp.app */,
+				43776F8C1B8022E90074EA36 /* Loop.app */,
+				43A943721B926B7B0051FA24 /* Loop.app */,
 				43A9437E1B926B7B0051FA24 /* WatchApp Extension.appex */,
 				43E2D8D11D20BF42004DA55F /* DoseMathTests.xctest */,
 				43E2D90B1D20C581004DA55F /* LoopTests.xctest */,
@@ -1564,7 +1564,6 @@
 			isa = PBXGroup;
 			children = (
 				C1F8B1D122375E4200DD66CF /* BolusProgressTableViewCell.swift */,
-				C1F8B1DB223862D500DD66CF /* BolusProgressTableViewCell.xib */,
 				43B260481ED248FB008CAA77 /* CarbEntryTableViewCell.swift */,
 				4346D1E61C77F5FE00ABAFE3 /* ChartTableViewCell.swift */,
 				431A8C3F1EC6E8AB00823B9C /* CircleMaskView.swift */,
@@ -1576,7 +1575,7 @@
 				4311FB9A1F37FE1B00D4C0A7 /* TitleSubtitleTextFieldTableViewCell.swift */,
 				89D6953D23B6DF8A002B3066 /* PotentialCarbEntryTableViewCell.swift */,
 				439706E522D2E84900C81566 /* PredictionSettingTableViewCell.swift */,
-                38B66F6A23C4A1F2009594BB /* TempBasalView.swift */,
+				38B66F6A23C4A1F2009594BB /* TempBasalView.swift */,
 				C1F8B1DB223862D500DD66CF /* BolusProgressTableViewCell.xib */,
 				38DAF6F023D71FFE00A3E9E3 /* Microboluses */,
 			);
@@ -1899,7 +1898,7 @@
 			);
 			name = Loop;
 			productName = Loop;
-			productReference = 43776F8C1B8022E90074EA36 /* FreeAPS.app */;
+			productReference = 43776F8C1B8022E90074EA36 /* Loop.app */;
 			productType = "com.apple.product-type.application";
 		};
 		43A943711B926B7B0051FA24 /* WatchApp */ = {
@@ -1918,7 +1917,7 @@
 			);
 			name = WatchApp;
 			productName = WatchApp;
-			productReference = 43A943721B926B7B0051FA24 /* WatchApp.app */;
+			productReference = 43A943721B926B7B0051FA24 /* Loop.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		43A9437D1B926B7B0051FA24 /* WatchApp Extension */ = {
@@ -3420,7 +3419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Loop/Loop.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = BA7ZHP4963;
@@ -3432,7 +3431,7 @@
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDEBUG";
 				"OTHER_SWIFT_FLAGS[sdk=iphonesimulator*]" = "-D IOS_SIMULATOR";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				PRODUCT_NAME = "$(MAIN_APP_PRODUCT_NAME)";
+				PRODUCT_NAME = Loop;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -3441,7 +3440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Loop/Loop.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -3452,7 +3451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = "1.10.1-microboluses";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				PRODUCT_NAME = "$(MAIN_APP_PRODUCT_NAME)";
+				PRODUCT_NAME = Loop;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -3520,7 +3519,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = "1.10.1-microboluses";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER).LoopWatch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Loop;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -3543,7 +3542,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = "1.10.1-microboluses";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER).LoopWatch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Loop;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
